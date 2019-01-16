@@ -51,3 +51,5 @@
         ssadmin.sh reset_all_limit
     显示已添加的iptables规则：
         ssadmin.sh lrules
+    查询当前连接着的ip以及其地理位置：
+        ssnumber.sh
