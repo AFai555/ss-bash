@@ -1,6 +1,11 @@
 ss-bash
 =======
 
+
+在原作者基础上增加了功能：**查询当前连接人数、ip与地理位置**。
+
+\-
+
 Shadowsocks流量管理脚本
 
 * 目前只支持python版Shadowsocks

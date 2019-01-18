@@ -23,6 +23,8 @@
                    分大小写）。支持小数。比如10.5G、10.5GB等。
                    1KB=1024 bytes，以此类推。
         示例： ssadmin.sh add 3333 abcde 10.5G
+    查询当前连接人数、ip与地理位置：
+        ssadmin.sh online
     显示用户流量信息：
         ssadmin.sh show port
     显示所有用户流量信息：
@@ -51,5 +53,3 @@
         ssadmin.sh reset_all_limit
     显示已添加的iptables规则：
         ssadmin.sh lrules
-    查询当前连接着的ip以及其地理位置：
-        ssnumber.sh
