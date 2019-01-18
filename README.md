@@ -4,6 +4,8 @@ ss-bash
 
 在原作者基础上增加了功能：**查询当前连接人数、ip与地理位置**。
 
+> 使用命令：`./ssadmin.sh online`，关于命令说明，请看文件sshelp
+
 \-
 
 Shadowsocks流量管理脚本
