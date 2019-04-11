@@ -485,7 +485,8 @@ show_online () {
             for ip in ${ips[@]}
             do
                 # 查询ip信息
-                curl https://ip.cn?ip=$ip
+                result=`curl -s http://ip.taobao.com/service/getIpInfo.php?ip=$ip`
+                echo $result | jq '. | {ip: .data.ip, ISP: .data.isp, "国家": .data.country, "地区": .data.region, "城市": .data.city}'
                 let allCount=${allCount}+1
             done
             echo '——————————————————————————————————————————————'
